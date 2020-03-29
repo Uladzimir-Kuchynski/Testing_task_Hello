@@ -1,0 +1,3 @@
+[test]
+epbyminw2603-v1.minsk.epam.com ansible_user=student ansible_ssh_private_key_file=~/centos_key ansible_ssh_extra_args='-o StrictHostKeyChecking=no'
+

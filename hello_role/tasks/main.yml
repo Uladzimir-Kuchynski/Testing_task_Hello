@@ -1,0 +1,10 @@
+---
+- import_tasks: install_nginx.yml
+  become: yes
+  tags:
+    - install_nginx
+    
+- import_tasks: create_index.yml
+  become: yes
+  tags:
+    - create_index

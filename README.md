@@ -21,11 +21,10 @@ chmod 600 centos_key
 ansible-playbook -i inventory hello_playbook.yml
 ```
 
-2.2 Установка с новым значением из зашифрованного файла, который зашифрован при помощи ansible-vault. Выполните команду:  
+### 2.2 Установка с новым значением из зашифрованного файла, который зашифрован при помощи ansible-vault. Выполните команду:  
 ```
 ansible-playbook -i inventory --tags=create_index --ask-vault-pass --extra-vars @vars.yml  hello_playbook.yml
 ```
 
-
 ## 3. Проверка результатов  
-Перейти в браузере на проверочную (страницу)[http://epbyminw2603-v1.minsk.epam.com/]
+Перейти в браузере на проверочную [страницу](http://epbyminw2603-v1.minsk.epam.com/)

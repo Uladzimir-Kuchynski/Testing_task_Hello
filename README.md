@@ -23,7 +23,7 @@ ansible-playbook -i inventory hello_playbook.yml
 
 ### 2.2 Установка с новым значением из зашифрованного файла, который зашифрован при помощи ansible-vault. Выполните команду:  
 ```
-ansible-playbook -i inventory --tags=create_index --ask-vault-pass --extra-vars @vars.yml  hello_playbook.yml
+ansible-playbook -i inventory --ask-vault-pass --extra-vars @vars.yml  hello_playbook.yml
 ```
 
 ## 3. Проверка результатов  
